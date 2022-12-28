@@ -13,8 +13,8 @@ pub fn header() -> Html {
             </div>
             <div class="links">
                 <Link<Route> to={Route::Home} >{"Home"}</Link<Route>>
-                <a class="center" href="https://www.github.com">{ "GitHub" }</a>
-                <Link<Route> to={Route::NotFound} >{"Not Found"}</Link<Route>>
+                <a class="center" href="https://github.com/cwalters162">{ "GitHub" }</a>
+                <a href="https://www.linkedin.com/in/cwalters162/">{ "LinkedIn" }</a>
             </div>
         </nav>
     }

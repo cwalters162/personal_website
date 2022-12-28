@@ -1,6 +1,8 @@
 pub mod home;
+pub mod not_found;
 
 use crate::routes::home::HomePage;
+use crate::routes::not_found::NotFoundPage;
 use yew::prelude::*;
 use yew_router::prelude::*;
 
@@ -17,6 +19,6 @@ pub enum Route {
 pub fn switch(route: Route) -> Html {
     match route {
         Route::Home => html! {<HomePage />},
-        Route::NotFound => html! { <p> {"Page Not Found"} </p> }
+        Route::NotFound => html! { <NotFoundPage /> }
     }
 }
