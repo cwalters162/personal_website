@@ -1,32 +1,26 @@
-use yew::prelude::*;
+mod components;
+mod routes;
 
-struct Model {
-    value: i64
-}
+//Internal
+use components::{
+    header::Header,
+    footer::Footer
+};
+use routes::{switch, Route};
+//External
+use yew::prelude::*;
+use yew_router::{BrowserRouter, Switch};
 
 #[function_component(App)]
 fn app() -> Html {
-    let state = use_state(|| Model {
-        value: 0
-    });
-
-    let onclick = {
-        let state = state.clone();
-
-        Callback::from(move |_| {
-            state.set(Model {
-                value: state.value + 1
-            })
-        })
-    };
-
     html! {
-        <div>
-            <button {onclick}>
-                { "+1" }
-            </button>
-            <p>{ state.value }</p>
-        </div>
+        <BrowserRouter>
+            <Header />
+            <div class="content">
+                <Switch<Route> render={switch} />
+            </div>
+            <Footer />
+        </BrowserRouter>
     }
 }
 
