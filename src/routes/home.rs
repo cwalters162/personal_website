@@ -15,7 +15,7 @@ pub fn home() -> Html {
         "My name is Cherokee. It's nice for you to visit.".to_string(),
         "I'm a full stack developer that has been coding full time since summer 2021!
         I've been working on multiple commercial project for various goverment organisations such as Joint Special Operations Center's Global Analytics Platform,
-        and 18 Airborne Corps Data Warfare Company.".to_string(),
+        and XVIII Airborne Corps Data Warfare Company.".to_string(),
         "If you have more questions please send me a message on my LinkedIn!".to_string(),
     ];
 
