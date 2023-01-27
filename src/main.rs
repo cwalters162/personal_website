@@ -7,6 +7,7 @@ use components::{
     footer::Footer
 };
 use routes::{switch, Route};
+
 //External
 use yew::prelude::*;
 use yew_router::{BrowserRouter, Switch};
@@ -15,11 +16,13 @@ use yew_router::{BrowserRouter, Switch};
 fn app() -> Html {
     html! {
         <BrowserRouter>
+            <body class="light">
             <Header />
-            <div class="content">
-                <Switch<Route> render={switch} />
-            </div>
+                <main class="responsive">
+                    <Switch<Route> render={switch} />
+                </main>
             <Footer />
+            </body>
         </BrowserRouter>
     }
 }

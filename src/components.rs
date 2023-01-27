@@ -1,3 +1,3 @@
 pub mod header;
 pub mod footer;
-pub mod card;
+pub mod tech_card;
