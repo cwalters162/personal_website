@@ -1,6 +1,7 @@
 import viteLogo from "./assets/vite.svg";
 import reactLogo from "./assets/react.svg";
 import createVerityLogo from "./assets/create-verity-logo-2.png";
+import FloatingActionButton from "./components/FloatingActionButton.tsx"
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             Time to begin
           </p>
         </div>
+        <FloatingActionButton/>
       </div>
   );
 }
