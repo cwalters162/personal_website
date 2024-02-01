@@ -11,27 +11,27 @@ export default function MenuBar() {
         <li className={"hidden p-4 text-5xl text-yellow-400 sm:block"}>
           Cherokee Walters
         </li>
-        <li
-          className={
-            "hidden p-4 hover:text-yellow-400 md:flex md:items-center md:text-2xl lg:text-xl"
-          }
-        >
-          <a href={"#experience"}>Experience</a>
-        </li>
-        <li
-          className={
-            "hidden p-4 hover:text-yellow-400 md:items-center md:text-2xl lg:flex lg:text-xl"
-          }
-        >
-          <a href={"#projects"}>Personal Projects</a>
-        </li>
-        <li
-          className={
-            "hidden p-4 hover:text-yellow-400 md:items-center md:text-2xl lg:flex lg:text-xl"
-          }
-        >
-          <a href={"#technologies"}>Technologies</a>
-        </li>
+        {/*<li*/}
+        {/*  className={*/}
+        {/*    "hidden p-4 hover:text-yellow-400 md:flex md:items-center md:text-2xl lg:text-xl"*/}
+        {/*  }*/}
+        {/*>*/}
+        {/*  <a href={"#experience"}>Experience</a>*/}
+        {/*</li>*/}
+        {/*<li*/}
+        {/*  className={*/}
+        {/*    "hidden p-4 hover:text-yellow-400 md:items-center md:text-2xl lg:flex lg:text-xl"*/}
+        {/*  }*/}
+        {/*>*/}
+        {/*  <a href={"#projects"}>Personal Projects</a>*/}
+        {/*</li>*/}
+        {/*<li*/}
+        {/*  className={*/}
+        {/*    "hidden p-4 hover:text-yellow-400 md:items-center md:text-2xl lg:flex lg:text-xl"*/}
+        {/*  }*/}
+        {/*>*/}
+        {/*  <a href={"#technologies"}>Technologies</a>*/}
+        {/*</li>*/}
       </ul>
       <ul
         className={"flex flex-1 justify-around sm:justify-end sm:gap-8 sm:pr-4"}
@@ -42,7 +42,10 @@ export default function MenuBar() {
           </a>
         </li>
         <li className={"flex items-center"}>
-          <a href={""} target={"_blank"}>
+          <a
+            href={"https://www.linkedin.com/in/cwalters162/"}
+            target={"_blank"}
+          >
             <FaLinkedin className={"text-6xl hover:text-yellow-400"} />
           </a>
         </li>
