@@ -4,12 +4,15 @@ export default function HeroSection() {
   return (
     <div>
       <div className={"flex"}>
-        <div className={"pl-10"}>
-          <h1 className={"pb-3 text-5xl"}>
-            <span className={"dark:text-primary-dark"}>Best software </span>
-            <span>you have ever seen</span>
+        <div>
+          <h1 className={"pb-10 text-center text-5xl"}>
+            <span>Empowering </span>
+            <span className={"dark:text-primary-dark"}>Your Goals </span>
+            <span>With </span>
+            <span className={"dark:text-primary-dark"}>Great </span>
+            <span>Software</span>
           </h1>
-          <div className={"flex justify-center pt-10"}>
+          <div className={"flex justify-center"}>
             <p className={"w-2/3 text-center text-3xl"}>
               <span>Experienced </span>
               software engineer using
@@ -22,14 +25,14 @@ export default function HeroSection() {
             </p>
           </div>
           <div className={"pt-10 text-center"}>
-            <button className={"rounded-full bg-primary-dark p-2"}>
-              Contact Now
+            <button className="hover:shadow-outline transform rounded-full p-2 text-3xl transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-transparent dark:text-primary-dark">
+              Contact Me
             </button>
           </div>
         </div>
         <div
           className={
-            "justify-middle flex hidden overflow-clip rounded-full bg-red-400 sm:block"
+            "justify-middle hidden overflow-clip rounded-full bg-red-400 md:flex"
           }
         >
           <img src={Portrait} alt={"headshot of Cherokee Walters"} />
