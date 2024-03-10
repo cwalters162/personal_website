@@ -8,7 +8,7 @@ export default function MenuBar() {
       }
     >
       <ul className={"flex"}>
-        <li className={"hidden p-4 text-5xl text-yellow-400 sm:block"}>
+        <li className={"hidden p-4 text-5xl text-primary-dark sm:block"}>
           Cherokee Walters
         </li>
         {/*<li*/}
@@ -38,7 +38,7 @@ export default function MenuBar() {
       >
         <li className={"flex items-center"}>
           <a href={"https://github.com/cwalters162"} target={"_blank"}>
-            <FaGithub className={"text-6xl hover:text-yellow-400"} />
+            <FaGithub className={"text-6xl hover:text-primary-dark"} />
           </a>
         </li>
         <li className={"flex items-center"}>
@@ -46,7 +46,7 @@ export default function MenuBar() {
             href={"https://www.linkedin.com/in/cwalters162/"}
             target={"_blank"}
           >
-            <FaLinkedin className={"text-6xl hover:text-yellow-400"} />
+            <FaLinkedin className={"text-6xl hover:text-primary-dark"} />
           </a>
         </li>
       </ul>

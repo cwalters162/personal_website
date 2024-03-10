@@ -3,7 +3,7 @@
 export default function HeroSection() {
   return (
     <div>
-      <div className={"flex"}>
+      <div className={"flex justify-center"}>
         <div>
           <div className={"pb-10 text-center text-3xl sm:text-5xl"}>
             <span>Empowering </span>
@@ -25,7 +25,7 @@ export default function HeroSection() {
             </p>
           </div>
           <div className={"pt-10 text-center"}>
-            <button className="hover:shadow-outline transform rounded-full p-2 text-3xl transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-transparent dark:text-primary-dark">
+            <button className="transform rounded-full border-2 border-primary-dark p-2 text-3xl transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 dark:text-primary-dark">
               <a
                 href={"https://www.linkedin.com/in/cwalters162/"}
                 target={"_blank"}
